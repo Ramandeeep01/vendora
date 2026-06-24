@@ -30,11 +30,9 @@ const Products = () => {
 
     <Navbar />
 
-    <h1 className="absolute ml-[1100px] text-xl text-gray-500 mt-[80px]">Welcome {user.fullName}</h1>
-
     <div className="px-10 pt-32">
 
-      <div className="max-w-7xl mx-auto bg-white rounded-[40px] shadow-xl overflow-hidden flex items-center">
+      <div className="max-w-7xl mx-auto bg-white rounded-[40px] mt-[-6px] shadow-xl overflow-hidden flex items-center">
 
         <div className="flex-1 pl-20">
 

@@ -8,6 +8,7 @@ import Products from './Pages/Products'
 import AddProduct from "./Pages/AddProduct";
 import ProductDetails from "./Pages/ProductDetails";
 import SellerDashboard from "./Pages/SellerDashboard";
+import About from "./Pages/About";
 
 import { useAuthStore } from "./store/authStore";
 
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/add-product" element={<AddProduct />} />
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/dashboard" element={<SellerDashboard />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   )

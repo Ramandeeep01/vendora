@@ -17,11 +17,11 @@ const Navbar = () => {
   return (
     <div className="flex fixed top-0 left-0 right-0 bg-white p-4 z-10">
 
-      <h1 className='text-3xl font-bold ml-[70px]'>VENDORA</h1>
+      <h1 className='text-3xl font-bold ml-[20px]'>VENDORA</h1>
       <h2 className='text-xl ml-[280px] cursor-pointer'
         onClick={() => user.role === "seller" ? navigate("/dashboard") : navigate("/products")}
       >Home</h2>
-      <h3 className='text-xl ml-[40px] cursor-pointer'>About</h3>
+      <h3 onClick={() => navigate("/about")} className='text-xl ml-[40px] cursor-pointer'>About</h3>
       <h3 className='text-xl ml-[40px] cursor-pointer'>Contact</h3>
 
       {
@@ -54,7 +54,7 @@ const Navbar = () => {
 
           <button
             onClick={handleLogout}
-            className="ml-[330px] border border-black pl-[12px] pr-[12px] mt-[-10px] hover:bg-black hover:text-white transition duration-300"
+            className="ml-[370px] border border-black pl-[12px] pr-[12px] mt-[-10px] hover:bg-black hover:text-white transition duration-300"
           >
             Logout
           </button>
