@@ -68,7 +68,6 @@ const Products = () => {
 
         </div>
 
-        {/* RIGHT IMAGE */}
         <div className="flex-1">
 
           <img

@@ -9,7 +9,6 @@ const About = () => {
 
       <div className="max-w-7xl mx-auto px-10 pt-32 pb-20">
 
-        {/* HERO SECTION */}
         <div className="bg-white rounded-[40px] shadow-xl p-16">
 
           <p className="tracking-[5px] text-gray-400 text-sm mb-4">
@@ -30,8 +29,7 @@ const About = () => {
 
         </div>
 
-        {/* MISSION + VISION */}
-        <div className="grid md:grid-cols-2 gap-10 mt-16">
+=        <div className="grid md:grid-cols-2 gap-10 mt-16">
 
           <div className="bg-white rounded-[35px] shadow-lg p-10">
 
@@ -66,7 +64,6 @@ const About = () => {
 
         </div>
 
-        {/* HOW IT WORKS */}
         <div className="mt-20">
 
           <p className="tracking-[5px] text-gray-400 text-sm mb-3">
@@ -127,7 +124,6 @@ const About = () => {
 
         </div>
 
-        {/* BUYER FEATURES */}
         <div className="mt-24">
 
           <h1 className="text-5xl font-bold text-gray-800 mb-10">
@@ -176,7 +172,6 @@ const About = () => {
 
         </div>
 
-        {/* SELLER FEATURES */}
         <div className="mt-24">
 
           <h1 className="text-5xl font-bold text-gray-800 mb-10">
@@ -225,7 +220,6 @@ const About = () => {
 
         </div>
 
-        {/* STATS */}
         <div className="mt-24">
 
           <div className="bg-white rounded-[40px] shadow-xl p-14">
@@ -262,7 +256,6 @@ const About = () => {
 
         </div>
 
-        {/* CTA */}
         <div className="mt-24 bg-black text-white rounded-[40px] p-16 text-center">
 
           <p className="tracking-[5px] text-gray-400 mb-4">

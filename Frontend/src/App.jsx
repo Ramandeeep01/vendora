@@ -9,6 +9,7 @@ import AddProduct from "./Pages/AddProduct";
 import ProductDetails from "./Pages/ProductDetails";
 import SellerDashboard from "./Pages/SellerDashboard";
 import About from "./Pages/About";
+import Landing from "./Pages/Landing";
 
 import { useAuthStore } from "./store/authStore";
 
@@ -34,7 +35,7 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/products" element={<Products />} />

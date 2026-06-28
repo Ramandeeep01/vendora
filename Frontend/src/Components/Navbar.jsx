@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleLogout = async () => {
     await axios.post("/user/logout");
     logout();
-    navigate("/login");
+    navigate("/");
   };
 
   return (
@@ -47,10 +47,6 @@ const Navbar = () => {
 
       {user && (
         <div className="flex">
-
-          {/* <span className='ml-[40px]'>
-      Welcome, <strong>{user.fullName}</strong>!
-    </span> */}
 
           <button
             onClick={handleLogout}
