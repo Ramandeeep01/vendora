@@ -18,6 +18,9 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 
 ### 👤 Authentication
 
+<img src="./Screenshots/signup.png" width="450px" alt="Landing Page">
+<img src="./Screenshots/login.png" width="450px" alt="Landing Page">
+
 * User Signup
 * User Login
 * JWT Authentication
@@ -26,12 +29,16 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 
 ### 🛍 Buyer Features
 
+<img src="./Screenshots/buyerHomePage.png" width="450px" alt="Landing Page">
+
 * Browse all products
 * View detailed product information
 * Razorpay payment integration
 * Clean shopping interface
 
 ### 🏪 Seller Features
+
+<img src="./Screenshots/sellerDashboard.png" width="450px" alt="Landing Page">
 
 * Seller Dashboard
 * Add new products
