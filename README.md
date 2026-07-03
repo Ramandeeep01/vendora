@@ -9,9 +9,7 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 
 ### 🌐 Public Landing Page 
 
-<p align="center">
-  <img src="./Screenshots/login.png" width="900" alt="Landing Page">
-</p>
+<img src="./Screenshots/login.png" width="900" alt="Landing Page">
 
 * Modern responsive landing page
 * About page
