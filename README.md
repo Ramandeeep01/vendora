@@ -9,7 +9,7 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 
 ### 🌐 Public Landing Page 
 
-<img src="./Screenshots/landingPage.png" width="400px" alt="Landing Page">
+<img src="./Screenshots/landingPage.png" width="380px" alt="Landing Page">
 
 * Modern responsive landing page
 * About page
@@ -18,8 +18,10 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 
 ### 👤 Authentication
 
-<div><img src="./Screenshots/signup.png" width="450px" alt="Landing Page">
-<img src="./Screenshots/login.png" width="450px" alt="Landing Page"></div>
+<div>
+  <img src="./Screenshots/signup.png" width="380px" alt="Landing Page">
+  <img src="./Screenshots/login.png" width="380px" alt="Landing Page">
+</div>
 
 * User Signup
 * User Login
@@ -29,7 +31,10 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 
 ### 🛍 Buyer Features
 
-<img src="./Screenshots/buyerHomePage.png" width="450px" alt="Landing Page">
+<div>
+  <img src="./Screenshots/buyerHomePage.png" width="380px" alt="Landing Page">
+  <img src="./Screenshots/products.png" width="380px" alt="Landing Page">
+</div>
 
 * Browse all products
 * View detailed product information
@@ -38,7 +43,11 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 
 ### 🏪 Seller Features
 
-<img src="./Screenshots/sellerDashboard.png" width="450px" alt="Landing Page">
+<div>
+  <img src="./Screenshots/sellerDashboard.png" width="380px" alt="Landing Page">
+  <img src="./Screenshots/addProductPage.png" width="380px" alt="Landing Page">
+  <img src="./Screenshots/productDetails.png" width="380px" alt="Landing Page">
+</div>
 
 * Seller Dashboard
 * Add new products
@@ -48,6 +57,8 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 * View product statistics
 
 ### 💳 Payment Gateway
+
+<img src="./Screenshots/razorpayTestMode.png" width="380px" alt="Landing Page">
 
 * Razorpay Integration
 * Secure Checkout Flow
