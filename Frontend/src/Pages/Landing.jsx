@@ -7,7 +7,7 @@ const Landing = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* NAVBAR */}
+      
       <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md z-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-10 py-5 flex items-center justify-between">
           <h1 className="text-3xl font-bold">VENDORA</h1>
@@ -28,7 +28,7 @@ const Landing = () => {
         </div>
       </nav>
 
-      {/* HERO SECTION */}
+     
       <section className="pt-40 pb-20 px-10 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -68,7 +68,7 @@ const Landing = () => {
                 </button>
               </div>
 
-              {/* STATS */}
+             
               <div className="flex gap-12 mt-16">
                 <div>
                   <h3 className="text-4xl font-bold">10K+</h3>
@@ -85,7 +85,7 @@ const Landing = () => {
               </div>
             </div>
 
-            {/* RIGHT IMAGE */}
+           
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-black/5 to-transparent rounded-[50px]"></div>
               <div className="bg-gradient-to-br from-black to-gray-800 rounded-[50px] h-[600px] flex items-center justify-center overflow-hidden">
@@ -99,7 +99,7 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* TWO ROLES SECTION */}
+     
       <section className="py-20 px-10 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -112,7 +112,7 @@ const Landing = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
-            {/* BUYER CARD */}
+            
             <div className="bg-white rounded-[40px] shadow-xl p-12 hover:-translate-y-4 transition duration-300">
               <div className="bg-gradient-to-br from-blue-500 to-blue-600 w-20 h-20 rounded-[25px] flex items-center justify-center mb-8">
                 <ShoppingBag size={40} className="text-white" />
@@ -152,7 +152,7 @@ const Landing = () => {
               </button>
             </div>
 
-            {/* SELLER CARD */}
+          
             <div className="bg-white rounded-[40px] shadow-xl p-12 hover:-translate-y-4 transition duration-300 border-2 border-black">
               <div className="bg-gradient-to-br from-black to-gray-800 w-20 h-20 rounded-[25px] flex items-center justify-center mb-8">
                 <Store size={40} className="text-white" />
@@ -195,7 +195,7 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* FEATURES SECTION */}
+     
       <section id="features" className="py-20 px-10 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -223,7 +223,7 @@ const Landing = () => {
               </p>
             </div>
 
-            {/* FEATURE 2 */}
+         
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-[35px] p-10 border border-gray-200 hover:border-black transition">
               <div className="bg-black w-16 h-16 rounded-[20px] flex items-center justify-center mb-6">
                 <Shield size={32} className="text-white" />
@@ -235,7 +235,7 @@ const Landing = () => {
               </p>
             </div>
 
-            {/* FEATURE 3 */}
+           
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-[35px] p-10 border border-gray-200 hover:border-black transition">
               <div className="bg-black w-16 h-16 rounded-[20px] flex items-center justify-center mb-6">
                 <Truck size={32} className="text-white" />
@@ -247,7 +247,7 @@ const Landing = () => {
               </p>
             </div>
 
-            {/* FEATURE 4 */}
+          
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-[35px] p-10 border border-gray-200 hover:border-black transition">
               <div className="bg-black w-16 h-16 rounded-[20px] flex items-center justify-center mb-6">
                 <Users size={32} className="text-white" />
@@ -259,7 +259,7 @@ const Landing = () => {
               </p>
             </div>
 
-            {/* FEATURE 5 */}
+           
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-[35px] p-10 border border-gray-200 hover:border-black transition">
               <div className="bg-black w-16 h-16 rounded-[20px] flex items-center justify-center mb-6">
                 <ShoppingBag size={32} className="text-white" />
@@ -271,7 +271,7 @@ const Landing = () => {
               </p>
             </div>
 
-            {/* FEATURE 6 */}
+           
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-[35px] p-10 border border-gray-200 hover:border-black transition">
               <div className="bg-black w-16 h-16 rounded-[20px] flex items-center justify-center mb-6">
                 <Zap size={32} className="text-white" />
@@ -286,7 +286,7 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* HOW IT WORKS */}
+      
       <section className="py-20 px-10 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -346,7 +346,7 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
+     
       <section className="py-20 px-10 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -359,7 +359,7 @@ const Landing = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-10">
-            {/* TESTIMONIAL 1 */}
+          
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-[35px] p-10 border border-gray-200">
               <div className="flex gap-2 mb-6">
                 {[...Array(5)].map((_, i) => (
@@ -377,7 +377,7 @@ const Landing = () => {
               </div>
             </div>
 
-            {/* TESTIMONIAL 2 */}
+        
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-[35px] p-10 border border-gray-200">
               <div className="flex gap-2 mb-6">
                 {[...Array(5)].map((_, i) => (
@@ -395,7 +395,7 @@ const Landing = () => {
               </div>
             </div>
 
-            {/* TESTIMONIAL 3 */}
+          
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-[35px] p-10 border border-gray-200">
               <div className="flex gap-2 mb-6">
                 {[...Array(5)].map((_, i) => (
@@ -416,7 +416,7 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* CTA SECTION */}
+
       <section className="py-20 px-10 bg-gradient-to-r from-black to-gray-900">
         <div className="max-w-6xl mx-auto text-center">
           <p className="tracking-[5px] text-gray-400 text-sm mb-6 uppercase">
@@ -450,7 +450,7 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* FOOTER */}
+     
       <footer className="bg-black text-white px-10 py-16">
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-12">
           <div>
