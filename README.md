@@ -34,6 +34,7 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 <div>
   <img src="./Screenshots/buyerHomePage.png" width="380px" alt="Landing Page">
   <img src="./Screenshots/products.png" width="380px" alt="Landing Page">
+  <img src="./Screenshots/productDetails.png" width="380px" alt="Landing Page">
 </div>
 
 * Browse all products
@@ -46,7 +47,6 @@ A modern **Multi Vendor E-Commerce Marketplace** built using the **MERN Stack**.
 <div>
   <img src="./Screenshots/sellerDashboard.png" width="380px" alt="Landing Page">
   <img src="./Screenshots/addProductPage.png" width="380px" alt="Landing Page">
-  <img src="./Screenshots/productDetails.png" width="380px" alt="Landing Page">
 </div>
 
 * Seller Dashboard
